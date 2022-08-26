@@ -24,7 +24,7 @@ Sprakify.ipynb: main file of the project, a jupyter notebook contains of explora
 The follows models are used for classification of users: Logistic Regression, Decision Trees,  Gradient Boosted Trees
 
 ## Result
-The data provided is the user log of the service, having demographic info, user activities, timestamps and etc. We analyze the log and build a model to identify customers who are highly likely to quit using our service, and thus, send marketing offers to them to prevent them from churning. We use f1-score to measure of model performance because we need precision and recall at the same time as we don't want to miss too many customers who are likely to churn whilst we don't want to waste too much on those who are not likely to churn. The model we built has a f1-score of 0.79, which is 14% higher than sending everybody offers. There is also a short article about this project posted here.
+The data provided is the user log of the service, having demographic info, user activities, timestamps and etc. We analyze the log and build a model to identify customers who are highly likely to quit using our service, and thus, send marketing offers to them to prevent them from churning. We use f1-score to measure of model performance because we need precision and recall at the same time as we don't want to miss too many customers who are likely to churn whilst we don't want to waste too much on those who are not likely to churn. The model we built has a f1-score of 0.85 for training dataset and 0.8 for test dataset. There is also a short article about this project posted [here](https://medium.com/@tat.v.sid/pyspark-ml-to-predict-churn-users-780f8a14c3e3).
 
 ## Acknowledgement
 Must give credit to Udacity for the project.
